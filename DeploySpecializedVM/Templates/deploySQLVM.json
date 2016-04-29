@@ -43,7 +43,7 @@
     "addressPrefix": "10.60.0.0/16",
     "subnetName": "sqlSubnet",
     "subnetPrefix": "10.60.1.0/24",
-    "publicIPAddressName": "sqlPublicIP",
+    "publicIPAddressName": "sqlPublicIP", 
     "publicIPAddressType": "Dynamic",
     "virtualNetworkName": "ispocVNET",
     "vnetID": "[resourceId('Microsoft.Network/virtualNetworks',variables('virtualNetworkName'))]",
