@@ -1,0 +1,21 @@
+﻿{
+  "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "osDiskVhdUri": {
+      "value": "https://ispocxfer.blob.core.windows.net/passvhds/spfarm-sql-osdisk.vhd"
+    },
+    "osType": {
+      "value": "Windows"
+    },
+    "location": {
+      "value": "North Europe"
+    },
+    "vmSize": {
+      "value": "Standard_DS2"
+    },
+    "vmName": {
+      "value": "spfarm-sql"
+    }
+  }
+}
