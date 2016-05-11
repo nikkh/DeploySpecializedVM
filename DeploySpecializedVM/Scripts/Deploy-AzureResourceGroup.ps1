@@ -4,13 +4,13 @@
 
 Param(
     [string] [Parameter(Mandatory=$true)] $ResourceGroupLocation,
-    [string] $ResourceGroupName = 'ispoc3',
+    [string] $ResourceGroupName = 'IServerClient',
     [switch] $UploadArtifacts,
     [string] $StorageAccountName,
     [string] $StorageAccountResourceGroupName, 
     [string] $StorageContainerName = $ResourceGroupName.ToLowerInvariant() + '-stageartifacts',
-    [string] $TemplateFile = '..\Templates\deploySQLVM.json',
-    [string] $TemplateParametersFile = '..\Templates\deploySQLVM.parameters.json',
+    [string] $TemplateFile = '..\Templates\deployIServerClient.json',
+    [string] $TemplateParametersFile = '..\Templates\deployIServerClient.parameters.json',
     [string] $ArtifactStagingDirectory = '..\bin\Debug\staging',
     [string] $AzCopyPath = '..\Tools\AzCopy.exe',
     [string] $DSCSourceFolder = '..\DSC'

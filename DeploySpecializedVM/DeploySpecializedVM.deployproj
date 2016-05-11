@@ -39,6 +39,8 @@
     <None Include="Templates\deploySQLVM.parameters.json" />
     <None Include="Templates\deployWEBVM.json" />
     <None Include="Templates\deployWEBVM.parameters.json" />
+    <None Include="Templates\deployIServerClient.json" />
+    <None Include="Templates\deployIServerClient.parameters.json" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Tools\AzCopy.exe" />
