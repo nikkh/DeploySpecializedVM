@@ -1,0 +1,3 @@
+﻿Stop-AzureRmVM -ResourceGroupName 'IServerClient' -Name 'IServerClient'  
+Set-AzureRmVM -ResourceGroupName 'IServerClient' -Name 'IServerClient' -Generalized  
+Save-AzureRmVMImage -ResourceGroupName 'IServerClient' -VMName 'IServerClient' -DestinationContainerName 'mytemplates' -VHDNamePrefix 'template' -Path C:\Users\nhill\Documents\GitHub\DeploySpecializedVM\DeploySpecializedVM\SampleTemplate.json  
