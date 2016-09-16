@@ -8,12 +8,15 @@
     "osType": {
       "value": "Windows"
     },
-    
+
     "vmSize": {
       "value": "Standard_D2"
     },
     "vmName": {
       "value": "ccpoc-Win10"
+    },
+    "nicName": {
+      "value": "ccpoc-win10-nic"
     }
   }
 }
